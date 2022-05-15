@@ -252,10 +252,10 @@ public class PhoneDot {
 				try {
 					dir.put(dir.size()+1,new Contact(name,number));
 					table_load();
-					JOptionPane.showMessageDialog(null,"Record Addedddd!!!!!");
 					textField_name.setText("");
 					textField_phone.setText("");
 					textField_name.requestFocus();
+					JOptionPane.showMessageDialog(null,"Record Addedddd!!!!!");
 					
 				}catch(Exception ex){
 					ex.printStackTrace();
